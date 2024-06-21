@@ -1,0 +1,39 @@
+.root {
+    -fx-font-family: "Arial";
+}
+#destinationGraph {
+    -fx-padding: 10px;
+    -fx-background-color: #679892;
+    -fx-text-fill: white;
+    -fx-wrap-text: true;
+    -fx-font-weight: bold;
+    -fx-border-color: #767989;
+    -fx-border-width: 1px;
+}
+#catAxis, #numAxis{
+    -fx-bar-fill: black;
+    -fx-tick-label-fill: white;
+    -fx-font-weight: bold;
+}
+.table-view {
+    -fx-padding: 10px;
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #b0b0b0;
+    -fx-border-width: 1px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #d3d3d3;
+    -fx-border-color: #b0b0b0;
+    -fx-border-width: 0 0 1px 0;
+    -fx-font-weight: bold;
+}
+.default-color0.chart-bar {
+    -fx-bar-fill: #98676D;
+}
+.button{
+    -fx-margin: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #98676D;
+}
